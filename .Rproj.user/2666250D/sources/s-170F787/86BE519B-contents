@@ -1,8 +1,0 @@
-<pre>
-<code>
-a <- reactive(input$a * 10 * b())
-b <- reactive(a() + input$b)
-c <- reactive(b() / input$c) 
-output$cOut <- renderText(c())
-</code>
-</pre>
